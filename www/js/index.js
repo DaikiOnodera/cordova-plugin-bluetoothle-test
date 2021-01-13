@@ -115,6 +115,7 @@ function addDevice(name, address) {
     button.style.width = "100%";
     button.style.padding = "10px";
     button.style.fontSize = "16px";
+    button.style.height = "25px";
     button.textContent = name + ": " + address;
 
     button.addEventListener("click", function () {
@@ -169,7 +170,7 @@ function getDeviceServices(address) {
 
     var platform = window.cordova.platformId;
 
-    if (platform === "android" || platform === "iOS") {
+    if (platform === "android" || platform === "ios") {
 
         new Promise(function (resolve, reject) {
 
@@ -354,7 +355,7 @@ function writeSuccess(result){
     log(result);
 
     if(result.status === "written"){
-        reportValue(result.service, result.characteristic, window.atob(result.value));
+        reportValue(result.service, result.characteristic, "write success.");
     }
 }
 
