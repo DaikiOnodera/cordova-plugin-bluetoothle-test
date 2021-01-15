@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-VRF4OHF</Machine>
+    <WindowsUser>daiki</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1cfdb8e0-5604-11eb-a836-b99d7853da4d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>A75DD3C4A77ECA3E2936B1C1AC08953B2F071E2BFD2812131A8A053363A1D2D6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.hellocordova_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.hellocordova_h35559jr9hy9m!io.cordova.hellocordova</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.hellocordova</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\build\windows\Debug\AnyCPU\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-15T00:44:29.065</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2021-01-14T01:02:03.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2021-01-14T01:02:03.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-14T01:02:03.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+      <Modified>2021-01-14T01:02:03.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-01-14T01:02:03.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2021-01-15T00:37:17.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+      <Modified>2021-01-15T00:37:17.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2021-01-15T00:37:17.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2021-01-15T00:37:17.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+      <Modified>2021-01-14T01:02:03.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2021-01-14T01:02:03.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2021-01-15T00:37:17.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+      <Modified>2021-01-15T01:18:24.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\plugins\cordova-plugin-bluetoothle\src\windows\BluetoothLEPlugin.js">
+      <PackagePath>www\plugins\cordova-plugin-bluetoothle\src\windows\BluetoothLEPlugin.js</PackagePath>
+      <Modified>2021-01-15T01:04:03.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\plugins\cordova-plugin-bluetoothle\www\bluetoothle.js">
+      <PackagePath>www\plugins\cordova-plugin-bluetoothle\www\bluetoothle.js</PackagePath>
+      <Modified>2021-01-15T00:37:17.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2021-01-14T01:02:03.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2021-01-15T00:37:17.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+      <Modified>2021-01-14T01:02:03.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2021-01-15T00:37:18.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\daiki\Playground\GITDIR\cordova-test\platforms\windows\build\windows\Debug\AnyCPU\win10\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-15T00:44:28.902</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
