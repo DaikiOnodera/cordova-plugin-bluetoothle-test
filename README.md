@@ -18,7 +18,7 @@
 
 ## <a name="prerequisites"></a> Prerequisites
 #### テスト環境<br>
-Advertising Device : nRF52840-DK<br>
+Advertising Device: nRF52840-DK<br>
 Android 8.0.0, ios 14.2, Windows 10, OSX 10.15.7<br>
 Android Studio 4.1.1, Xcode 12.3 Visual Studio 2015<br>
 #### 準備<br>
@@ -58,7 +58,7 @@ Xcodeでbuild, runを行うことで、Staging/www/js/index.jsに書かれたwri
 nRF52840側のteratermなどから文字列を送信することで、画面に受信した文字列が表示されます。<br>
 Xcode上で編集する場合はStaging-\>www-\>js-\>index.jsを編集してください。(\* cordova build osxでwww以下のフォルダがStagingフォルダにコピーされる)<br>
 
-### Windowsの実行例
+#### Windowsの実行例
 ```
 cordova plugin add cordova-plugin-bluetoothle
 cordova build windows
@@ -71,8 +71,7 @@ VS上で編集する場合はwww-\>js-\>index.jsを編集してください。<b
 
 #### <a name="warn"></a>注意点(Windows10)
 Visual Studio 2019はjsprojをサポートしていないため、実行できません。<br>
-plugins/cordova-plugin-bluetoothle/src/windows/BluetoothLePlugin.jsの317行目"name":device.nameをコメントアウトする必要が
-あります。(windowsではdeviceという変数が返ってこないため。)<br>
+plugins/cordova-plugin-bluetoothle/src/windows/BluetoothLePlugin.jsの317行目"name":device.nameをコメントアウトする必要があります。(windowsではdeviceという変数が返ってこないため。)<br>
 
 #### 注意点(Windows, OSX)
 Windowsはjsprojという最新のVisual Studioでサポートされないプロジェクトになっている<br>
