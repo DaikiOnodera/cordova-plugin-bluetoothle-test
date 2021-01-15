@@ -64,7 +64,7 @@ function startScan() {
     document.getElementById("services").innerHTML = "";
     document.getElementById("output").innerHTML = "";
 
-    if (window.cordova.platformId === "windows") {
+    if (window.cordova.platformId === "windows_temp") {
 
         bluetoothle.retrieveConnected(retrieveConnectedSuccess, handleError, {});
     }
@@ -170,7 +170,7 @@ function getDeviceServices(address) {
 
     var platform = window.cordova.platformId;
 
-    if (platform === "android" || platform === "ios") {
+    if (platform === "android" || platform === "ios" || platform === "windows") {
 
         new Promise(function (resolve, reject) {
 
@@ -180,7 +180,7 @@ function getDeviceServices(address) {
         }).then(discoverSuccess, handleError);
 
     }
-    else if (platform === "windows") {
+    else if (platform === "windows_temp") {
 
         new Promise(function (resolve, reject) {
 
@@ -346,7 +346,7 @@ function subscribeSuccess(result){
         log(result);
     }
     else if(result.status === "subscribedResult"){
-        reportValue(result.service, result.characteristic, window.atob(result.value));
+        reportValue(result.service.toUpperCase(), result.characteristic.toUpperCase(), window.atob(result.value));
     }
 }
 
@@ -355,7 +355,7 @@ function writeSuccess(result){
     log(result);
 
     if(result.status === "written"){
-        reportValue(result.service, result.characteristic, "write success.");
+        reportValue(result.service.toUpperCase(), result.characteristic.toUpperCase(), "write success.");
     }
 }
 

@@ -313,7 +313,7 @@ module.exports = {
         "status": "discovered",
         "services": services,
         "address": address,
-        "name": device.name
+        // "name": device.name
       });
     }, function(error) {
       errorCallback({ error: "discover", message: error.message});
